@@ -19,3 +19,7 @@ if __name__ == '__main__':
     print(viviane.sons)
     for son in viviane.sons:
         print(son.name)
+    rafael.sobrenome = 'Henrique'
+    del rafael.sons
+    print(rafael.__dict__)
+    print(viviane.__dict__)
